@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.video-link {
+    margin: 10px;
+    padding: 15px 30px;
+    background-color: #4681f4;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    display: block; /* Alteração para exibir os botões um abaixo do outro */
+}
+
+.video-link:hover {
+    background-color: #0056b3;
+}
+
+   
+   /* Estilize o link */
+   a {
+    text-decoration: none; /* Remove sublinhado padrão */
+    background-color: #007bff; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    border-radius: 5px; /* Borda arredondada */
+    font-weight: bold; /* Texto em negrito */
+    transition: background-color 0.3s; /* Transição suave de cor de fundo */
+    margin-top: 20px; /* Mova o botão para baixo 20 pixels */
+    display: inline-block; /* Para que o margin-top funcione corretamente */
+
+  }
+  body {
+    text-align: left;
+  }
+  /* Adicione um efeito de hover para destacar o link quando passar o mouse por cima */
+  a:hover {
+    background-color: #0056b3; /* Nova cor de fundo ao passar o mouse */
+  }
+  /* Estilos do botão para o modo dark */
+.dark-mode-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    cursor: pointer;
+}
